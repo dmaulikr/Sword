@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>State</key>
+	<dict>
+		<key>HP</key>
+		<integer>5</integer>
+		<key>Boss</key>
+		<integer>0</integer>
+		<key>Spawn</key>
+		<integer>1</integer>
+		<key>Level</key>
+		<integer>1</integer>
+	</dict>
+	<key>Equipment</key>
+	<dict>
+		<key>Sword</key>
+		<string>standard</string>
+	</dict>
+	<key>Relics</key>
+	<dict>
+		<key>visionBandana</key>
+		<dict>
+			<key>Description</key>
+			<string>A bandana with the power to reveal previously undetectable hidden paths through rooms.</string>
+			<key>Unlocked</key>
+			<false/>
+		</dict>
+		<key>keenHilt</key>
+		<dict>
+			<key>Description</key>
+			<string>A new sword grip which enables a cleaner swing occasionally resulting in a critical hit.</string>
+			<key>Unlocked</key>
+			<false/>
+		</dict>
+		<key>dogAmulet</key>
+		<dict>
+			<key>Description</key>
+			<string>An enchanted amulet which grants the wearer the ability to transform in to a canine form of themself using the X button.</string>
+			<key>Unlocked</key>
+			<false/>
+		</dict>
+		<key>handSpikes</key>
+		<dict>
+			<key>Description</key>
+			<string>Spikes worn on the wrists which can be embedded in certain surfaces to enable climbing to previously unreachable areas.</string>
+			<key>Unlocked</key>
+			<false/>
+		</dict>
+		<key>doubleJump</key>
+		<dict>
+			<key>Description</key>
+			<string>A relic that enables the user to harness residual energy to invoke a second jump while rising or falling.</string>
+			<key>Unlocked</key>
+			<false/>
+		</dict>
+	</dict>
+</dict>
+</plist>

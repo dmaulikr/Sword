@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="32" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="standards" tilewidth="64" tileheight="64">
+  <image source="DuelMapTiles-hd.png" width="256" height="256"/>
+ </tileset>
+ <layer name="background" width="60" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7A9+LeMiSUctAqaAAAAAAAAAA1zHeC9BSqUAAY=
+  </data>
+ </layer>
+ <layer name="walls" width="60" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt1TEKACEMRUGx2vufWCwWtjRabIIz8FvJq2wNAAAAAIBsnoNlcdJwS+/O+7fQ+68eXFS23lXv3dHmqr3Tt3l1lXun6v/RAABhAtE=
+  </data>
+ </layer>
+ <layer name="hazards" width="60" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7Dd+BeMiSUctAqaAAAAAAAAAE1zHeCtBTbYAAs=
+  </data>
+ </layer>
+ <layer name="pickups" width="60" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7BJwL9aTCzhoFXQBAAAAAAAAGiZ6wCvLUYAABE=
+  </data>
+ </layer>
+ <layer name="falseWalls" width="60" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7Cd+FeMjEHSKmgCAAAAAAB/TDsAAIctV0AACQ==
+  </data>
+ </layer>
+ <objectgroup name="enemies" width="60" height="32">
+  <object name="enemy1" x="1056" y="1888"/>
+ </objectgroup>
+ <objectgroup name="spawns" width="60" height="32">
+  <object name="spawn1" x="101" y="1725"/>
+ </objectgroup>
+ <objectgroup name="doors" width="60" height="32">
+  <object name="door1" x="33" y="1764">
+   <properties>
+    <property name="level" value="19"/>
+    <property name="spawn" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="relics" width="60" height="32">
+  <object name="relic1" x="1507" y="1889">
+   <properties>
+    <property name="name" value="visionBandana"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="climbing" width="60" height="32"/>
+</map>

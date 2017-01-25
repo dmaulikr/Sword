@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="30" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="StandardTiles" tilewidth="64" tileheight="64">
+  <image source="DuelMapTiles-hd.png" width="256" height="256"/>
+ </tileset>
+ <layer name="background" width="60" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1DEKADAIBEGr+P8f26cMokVmXrBwcBEAAADALbcDhp3tgGb2A37g6wB4VZZjACg=
+  </data>
+ </layer>
+ <layer name="walls" width="60" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztl9EKgDAIRbfqof//4trDQIZuOlg4uwckApEralpKAAAAAAAAzHMvNI+s0IZ8/cBpy68djFUu4dmL6YWq7VT4WGN6RKPNoj8b/b+maqN929Y6Un0L2vpyM03nur7vnO9Mf+6Qb+9O0Oin3+jd8o0+vwVrfaXdK/l7YXT30vnt7Wgupkc0d36kfubyleZX2ketec53BO3nCP+DGnbXT4nen3/nAY8PBIs=
+  </data>
+ </layer>
+ <layer name="hazards" width="60" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1jENAAAIBLGf8S8YB6xA0iq48RIAAACAWW0HAAAc55f4pAGtwAAV
+  </data>
+ </layer>
+ <layer name="pickups" width="60" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1DERAAAIAzEk4F8tIuCOoYmCX9oqAAAA2OvvAAhkd0AavwdwYwDxrwAx
+  </data>
+ </layer>
+ <layer name="falseWalls" width="60" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1DENAAAIA8Eu+LeMBgZCSO4UdPkmAAAAM3U9AFinc/hLvwC7Kr6W/xrrtAAa
+  </data>
+ </layer>
+ <objectgroup name="enemies" width="60" height="30">
+  <object name="enemy1" x="227" y="1241"/>
+  <object name="enemy2" x="924" y="1112"/>
+  <object name="enemy3" x="807" y="1561"/>
+  <object name="enemy4" x="1240" y="1564"/>
+ </objectgroup>
+ <objectgroup name="spawns" width="60" height="30">
+  <object name="spawn1" x="169" y="1697"/>
+ </objectgroup>
+ <objectgroup name="doors" width="60" height="30">
+  <object name="door1" x="41" y="1756">
+   <properties>
+    <property name="level" value="2"/>
+    <property name="spawn" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="relics" width="60" height="30">
+  <object name="relic1" x="737" y="1449">
+   <properties>
+    <property name="name" value="doubleJump"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="climbing" width="60" height="30"/>
+</map>

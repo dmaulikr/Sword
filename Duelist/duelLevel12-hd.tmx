@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="20" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="standards" tilewidth="64" tileheight="64">
+  <image source="DuelMapTiles-hd.png" width="256" height="256"/>
+ </tileset>
+ <layer name="background" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzrEJADAIAEEbk/03tnGEgEju4PuPAABeu912p8vpEQD4QAEBywAg
+  </data>
+ </layer>
+ <layer name="walls" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztk8EOwCAIQx3usP//4nkhWchcBdGZjZf0QFChSU0pCIKvcyyuP/p4A7TnSM9bERVl9db1PVHf20MvJOpWH4jZPuQsbx8kVMvMDmqGsyfFs2p7UmP/7l1tzq73n7DkeOZ/sZzz9mGZOUIoH6i/io9eBUGg5wTPTgf/
+  </data>
+ </layer>
+ <layer name="hazards" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztyiEOAAAIxLDT/P/BaAwk6DaZWwIAALda+nwATA3zHgCN
+  </data>
+ </layer>
+ <layer name="pickups" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzjEBAAAIA6BFsH9aW0wPSEACANA11wEAeGgBgaAAEQ==
+  </data>
+ </layer>
+ <layer name="falseWalls" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7A9+LeMhz0kpFXQBAD4ZK4DAEBlATZ0AAY=
+  </data>
+ </layer>
+ <objectgroup name="enemies" width="50" height="20">
+  <object name="enemy1" x="736" y="480"/>
+  <object name="enemy2" x="864" y="480"/>
+  <object name="enemy3" x="2016" y="864"/>
+  <object name="enemy4" x="2272" y="672"/>
+ </objectgroup>
+ <objectgroup name="spawns" width="50" height="20">
+  <object name="spawn1" x="127" y="623"/>
+  <object name="spawn2" x="2936" y="632"/>
+ </objectgroup>
+ <objectgroup name="doors" width="50" height="20">
+  <object name="door1" x="32" y="672">
+   <properties>
+    <property name="level" value="11"/>
+    <property name="spawn" value="2"/>
+   </properties>
+  </object>
+  <object name="door2" x="3040" y="672">
+   <properties>
+    <property name="level" value="13"/>
+    <property name="spawn" value="1"/>
+    <property name="special" value="boss"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="relics" width="50" height="20"/>
+ <objectgroup name="climbing" width="50" height="20">
+  <object x="608" y="480">
+   <properties>
+    <property name="image" value="climbWallRight"/>
+   </properties>
+  </object>
+  <object x="544" y="480">
+   <properties>
+    <property name="image" value="climbWall"/>
+   </properties>
+  </object>
+  <object x="480" y="480">
+   <properties>
+    <property name="image" value="climbWall"/>
+   </properties>
+  </object>
+  <object x="416" y="480">
+   <properties>
+    <property name="image" value="climbWallLeft"/>
+   </properties>
+  </object>
+  <object x="1056" y="480">
+   <properties>
+    <property name="image" value="climbWallLeft"/>
+   </properties>
+  </object>
+  <object x="1120" y="480">
+   <properties>
+    <property name="image" value="climbWall"/>
+   </properties>
+  </object>
+  <object x="1184" y="480">
+   <properties>
+    <property name="image" value="climbWallRight"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="30" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="standardTiles" tilewidth="64" tileheight="64">
+  <image source="DuelMapTiles-hd.png" width="256" height="256"/>
+ </tileset>
+ <layer name="background" width="60" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1rENADAIA0Eqsv/GFFkhCkLcTfDuHAGw0+kO+Czjbp6ye0rnK9kdAACADwoAwBoFFLQANg==
+  </data>
+ </layer>
+ <layer name="walls" width="60" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzdmM0OhDAIhNH14Ps/sSdjl1AK/WHQSbg0KHyhdrpLpOtcHBm0mjELb2R/aN7oWSB5EfsOxdvDthcxWjdaXt7dkWupGy1PXc560v+sW/HrrDtTrbobPf3O9B40b20OZc5Ij9l4NZ6ZvAd7Z7Si7jxZ5hulr/Pys7lk2wjHy/uy5PE1SS2WLN+vJY+v1fItdaNV4z3oOUt5Hl/j/kUks0heHq2I+XIPWu0FmiL3c0Zez73wzbzSWsszpbuo5D/Se1HeO4NX2we1Mw/JO/Ksp/ev8HrzM/CW3mgNS9/a72eErPeg1lnNdXP2PLtSs+taONG82v9MVnk4Uayk9NP7LWdmJaGX1YHWBaHhDJU=
+  </data>
+ </layer>
+ <layer name="hazards" width="60" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0EENAAAIxLB7418wAggGoE1mYAkAAADALbXE5A0AwD8NgV0AUQ==
+  </data>
+ </layer>
+ <layer name="pickups" width="60" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt10ENAAAMArFJmH+1kwFLWgX3ImEGAEjadABQxy4AAAD85tfR7gCXfgAx
+  </data>
+ </layer>
+ <layer name="falseWalls" width="60" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1TENAAAIBDEW/FvGADsh3yq47aqANH0dAACsvj/6ez8AAACkGDZfABA=
+  </data>
+ </layer>
+ <objectgroup name="enemies" width="60" height="30">
+  <object name="enemy1" x="800" y="863"/>
+  <object name="enemy2" x="484" y="1509"/>
+  <object name="enemy3" x="161" y="1503"/>
+  <object name="enemy4" x="1124" y="416"/>
+ </objectgroup>
+ <objectgroup name="spawns" width="60" height="30">
+  <object name="spawn1" x="163" y="800"/>
+  <object name="spawn2" x="291" y="485"/>
+ </objectgroup>
+ <objectgroup name="doors" width="60" height="30">
+  <object name="door1" x="35" y="863">
+   <properties>
+    <property name="level" value="2"/>
+    <property name="spawn" value="3"/>
+   </properties>
+  </object>
+  <object name="door2" x="161" y="541">
+   <properties>
+    <property name="level" value="5"/>
+    <property name="spawn" value="1"/>
+    <property name="special" value="boss"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="relics" width="60" height="30"/>
+ <objectgroup name="climbing" width="60" height="30"/>
+</map>

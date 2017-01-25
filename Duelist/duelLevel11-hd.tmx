@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="42" height="42" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="standards" tilewidth="64" tileheight="64">
+  <image source="DuelMapTiles-hd.png" width="256" height="256"/>
+ </tileset>
+ <layer name="background" width="42" height="42">
+  <data encoding="base64" compression="zlib">
+   eJztw7ENAAAIA6Au/v+yS19wEhISAAAALk0DAADw0wKobAAL
+  </data>
+ </layer>
+ <layer name="walls" width="42" height="42">
+  <data encoding="base64" compression="zlib">
+   eJztl9kKAyEMAPfwof//xS0UIQRjTrO2ZMCXKGbIanCPoyiKoiie55U8PJ5ZlOeX8zMu4+hcCZ59nec8RpxPqgYjT82+0Z6SOxnlGdET8Dp4LqO++wpP7f7efrnKM5p/8oT5byKOh7WPUn2F81xVH7g/zjXKV54yZp5N4UHNN2GMY5d6wrtxD+Z38eR6VbTnqBYSvJ4NzXF5rGTX08oo90nEd/Ok4h7Pvsb6b+Hx1PRPL5n19ABzU2+YWSwLTe5f9Jy9/1ag9XwKrka4NxSFlDdDKApW
+  </data>
+ </layer>
+ <layer name="hazards" width="42" height="42">
+  <data encoding="base64" compression="zlib">
+   eJzt0qENAAAIBLHX7D8wBonE0Sa3wSUAAAAAAPdqgk88D2wa0hAAHw==
+  </data>
+ </layer>
+ <layer name="pickups" width="42" height="42">
+  <data encoding="base64" compression="zlib">
+   eJzt1DENAAAIBLGXgH+1iGAgkFbBTZcAAAAwVdsBwHs+AwBwVwObnwAh
+  </data>
+ </layer>
+ <layer name="falseWalls" width="42" height="42">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20KP6AAAAAAAACAlwEbkAAB
+  </data>
+ </layer>
+ <objectgroup name="enemies" width="42" height="42">
+  <object name="enemy1" x="2144" y="1760"/>
+  <object name="enemy2" x="1632" y="1312"/>
+  <object name="enemy3" x="1568" y="2400"/>
+  <object name="enemy4" x="608" y="1056"/>
+ </objectgroup>
+ <objectgroup name="spawns" width="42" height="42">
+  <object name="spawn1" x="2169" y="2231"/>
+  <object name="spawn2" x="203" y="868"/>
+ </objectgroup>
+ <objectgroup name="doors" width="42" height="42">
+  <object name="door1" x="2272" y="2272">
+   <properties>
+    <property name="level" value="10"/>
+    <property name="spawn" value="2"/>
+   </properties>
+  </object>
+  <object name="door2" x="99" y="927">
+   <properties>
+    <property name="level" value="12"/>
+    <property name="spawn" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="relics" width="42" height="42"/>
+ <objectgroup name="climbing" width="42" height="42"/>
+</map>

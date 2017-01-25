@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="44" height="26" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="standardTiles" tilewidth="64" tileheight="64">
+  <image source="DuelMapTiles-hd.png" width="256" height="256"/>
+ </tileset>
+ <layer name="background" width="44" height="26">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7A9+LeMjEHSKmgCwBXTDgAAAC8tT1wABg==
+  </data>
+ </layer>
+ <layer name="walls" width="44" height="26">
+  <data encoding="base64" compression="zlib">
+   eJztlEsKwCAMRO1n0fufuC5FKk51YoLJg1kIQh4hTEp78BjLX18NwlcWz7735BvB835nQfb9NZ/VfxKEL48j56xi2bfnYpEdfeubaeUScix7DfG1fL/In/DFGZmp2b8M35V49EX7jhHm/WokWM8L6xkI+A==
+  </data>
+ </layer>
+ <layer name="hazards" width="44" height="26">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7Dd+BdMZoGHp1XQBAAAAICa78DRAhkQAAs=
+  </data>
+ </layer>
+ <layer name="pickups" width="44" height="26">
+  <data encoding="base64" compression="zlib">
+   eJzt1cEJAEAIA8GUYP/VXgPiSziEmQr2E5IA19XvAGBkowDQq/hJ2PIABH4AQQ==
+  </data>
+ </layer>
+ <layer name="falseWalls" width="44" height="26">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7A9+LeMi5GQVkETAAAA+GuuA1CwIGgABg==
+  </data>
+ </layer>
+ <objectgroup name="enemies" width="44" height="26">
+  <object name="enemy1" x="1505" y="1356">
+   <properties>
+    <property name="special" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="spawns" width="44" height="26">
+  <object name="spawn1" x="113" y="899"/>
+  <object name="spawn2" x="2361" y="624"/>
+ </objectgroup>
+ <objectgroup name="doors" width="44" height="26">
+  <object name="door1" x="36" y="925">
+   <properties>
+    <property name="level" value="4"/>
+    <property name="spawn" value="2"/>
+   </properties>
+  </object>
+  <object name="door2" x="2464" y="667">
+   <properties>
+    <property name="boss" value="1"/>
+    <property name="level" value="6"/>
+    <property name="spawn" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="relics" width="44" height="26"/>
+ <objectgroup name="climbing" width="44" height="26"/>
+</map>
